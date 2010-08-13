@@ -1,0 +1,16 @@
+ORGMODE-MARKDOWN: Support for exporting to markdown from orgmode
+
+* Setup
+1. Make sure you have [[http://orgmode.org/worg/org-contrib/org-export-generic.php][org-export-generic]] installed
+2. git clone this repo
+3. Load markdown.el to your .emacs file
+: (load "~/.emacs.d/org-mode/contrib/lisp/org-export-generic.el")
+4. In the org file you want to export type C-c C-e g M
+5. You now have a .markdown file
+
+* Support
+- Basic structure is exported including headings
+- Unnested lists
+- One unordered list nested in a ordered list and vice versa
+- TODO's are exported (Would like to make bold...)
+- More on the way
