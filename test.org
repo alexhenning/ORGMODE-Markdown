@@ -1,0 +1,36 @@
+Testing export to Markdown...
+
+* Exporting features...
+** TODO Structure
+** TODO TODOS
+** TODO Formatting
+*Bold*
+/Italic/
+_underline_
+super^script
+sub_script
+** TODO Numbered lists
+1. Orgmode
+   
+   The most amazing program (along with emacs)
+2. Rocks!
+3. Three
+   + I am
+   + nesting
+4. Fourty Two
+   1. Deep
+   2. Inside
+** TODO Unordered lists [2/5]
+- [X] s
+- [ ] l
+- [ ] s
+- [X] t
+      1. One
+      2. Two
+      3. Three
+- [ ] i
+      + Hi
+      + Hi
+      + Hi
+** TODO Hyperlinks
+[[http://daringfireball.net/projects/markdown/dingus][Markdown]]
